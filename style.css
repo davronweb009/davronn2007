@@ -1,0 +1,131 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.d1{
+    width: 150px;
+    height: 150px;
+    animation-name:d1;
+    
+    background-color: aqua;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     
+    position: absolute;
+    
+
+}
+ChatGPT
+
+Вы сказали:
+Screenrecorder-2024-11-03-19-06-25-619.mp4
+Файл
+Создай изображение
+ChatGPT сказал:
+ChatGPT
+У меня пока нет возможности создавать изображения непосредственно из видеофайлов. Могу ли я помочь с чем-то другим, например, описанием или раскадровкой?
+
+
+
+
+
+
+Вы сказали:
+Css ni qib ber
+ChatGPT сказал:
+ChatGPT
+Конечно, могу помочь с CSS! Расскажите подробнее, что именно вам нужно:
+
+Тип проекта: Что именно вы стилизуете (например, сайт, мобильное приложение, форма)?
+Стиль и элементы: Какие конкретные элементы нужно стилизовать (кнопки, фон, текст, карточки и т.д.)?
+Цветовая схема и дизайн: У вас есть предпочтения по цветам, шрифтам, макету?
+
+
+
+
+
+Вы сказали:
+Hammasini shu videodaka qil
+ChatGPT сказал:
+ChatGPT
+Для создания CSS, соответствующего стилю из вашего видео, мне нужно сначала понять, какие конкретные элементы вы хотите воссоздать. Поскольку я не могу извлекать стиль или дизайн напрямую из видео, вам нужно описать ключевые детали дизайна, такие как:
+
+Цвета — основной и дополнительные цвета, используемые в видео.
+Шрифты и текст — размер, стиль и цвет текста, если они важны.
+Основные элементы — какие элементы присутствуют в видео (например, кнопки, формы, карточки) и их стиль (закругленные углы, тени, градиенты и т.д.).
+Расположение элементов — как компоненты расположены на экране (например, есть ли сетка, выравнивание по центру и т.д.).
+Если опишите эти детали, я смогу помочь вам написать CSS, максимально похожий на стиль видео.
+
+
+
+
+
+
+Вы сказали:
+Tort burchakni  kompyuter tortta tarafiga borib kelishi keyfernsini va css kodlarini tasha
+ChatGPT сказал:
+ChatGPT
+Конечно! Чтобы анимировать квадрат, который будет двигаться по четырём углам экрана, можно использовать CSS и @keyframes. Вот пример кода, который анимирует квадрат по вашему описанию:
+
+html
+Копировать код
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Animation</title>
+    <style>
+        /* Контейнер для анимации */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+
+        /* Стили для квадрата */
+        .square {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            position: absolute;
+            animation: moveSquare 5s infinite;
+        }
+
+        /* Ключевые кадры для движения */
+        @keyframes d1 {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: aqua;
+            }
+            25% {
+                top: 0;
+                left: calc(80% - 50px);
+                background-color: palevioletred;
+            }
+            50% {
+                top: calc(80% - 50px);
+                left: calc(80% - 50px);
+
+                background-color: black;
+            }
+            75% {
+                top: calc(80% - 50px);
+                left: 0;
+                background-color: orange;
+            }
+            100% {
+                top: 0;
+                left: 0;
+                background-color: red;
+            }
+        }
+    
